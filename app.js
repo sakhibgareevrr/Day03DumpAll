@@ -14,3 +14,6 @@ function dumpAll(customer) {
         }
     }
 }
+$(document).ready(function () {
+    dumpAll(customer);
+});
